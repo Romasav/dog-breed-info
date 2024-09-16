@@ -1,16 +1,50 @@
-# test_project
+# 🐕 Dog Breed Info App
 
-A new Flutter project.
+**Flutter (Dart)**
 
-## Getting Started
+A mobile app to display detailed information about various dog breeds. Built using Clean Architecture and Test-Driven Development (TDD) to ensure maintainability and testability.
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Dog Breed Details**: Breed characteristics, size, temperament, and more.
+- **Search**: Easily find dog breeds.
+- **User-friendly UI**: Built with responsive Flutter components.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧑‍💻 Technologies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter (Dart)** for cross-platform development.
+- **Clean Architecture** for separation of concerns.
+- **TDD** for robust and maintainable code.
+
+## 🔨 Project Structure
+
+- **Presentation Layer**: UI and state management.
+- **Domain Layer**: Business logic and entities.
+- **Data Layer**: Repositories, APIs, and data sources.
+
+## 🚀 Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Romasav/dog-breed-info.git
+   ```
+2. Navigate to the project:
+   ```bash
+   cd dog-breed-info
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## 🧪 Testing
+
+The app has been developed with Test-Driven Development (TDD) principles, ensuring that each feature is thoroughly tested before implementation. To run the tests, use the following command:
+
+```bash
+flutter test
+```
